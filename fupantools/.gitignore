@@ -1,0 +1,13 @@
+.env
+.env.*
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+output/
+reports/
+logs/
+股票历史数据库/
+*.parquet
+*.db
+*.sqlite*

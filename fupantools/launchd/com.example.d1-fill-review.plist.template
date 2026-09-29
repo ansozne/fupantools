@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.example.d1-fill-review</string>
+  <key>ProgramArguments</key><array><string>/bin/bash</string><string>__PACKAGE_DIR__/scripts/run_d1_fill_review_launchd.sh</string></array>
+  <key>EnvironmentVariables</key><dict>
+    <key>REVIEW_WORKDIR</key><string>__WORKDIR__</string>
+    <key>REVIEW_PACKAGE_DIR</key><string>__PACKAGE_DIR__</string>
+    <key>REVIEW_PYTHON</key><string>__PYTHON3_PATH__</string>
+    <key>REVIEW_WAREHOUSE_MODE</key><string>require</string>
+  </dict>
+  <key>RunAtLoad</key><false/>
+</dict></plist>

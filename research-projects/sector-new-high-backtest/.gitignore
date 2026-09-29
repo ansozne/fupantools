@@ -1,0 +1,10 @@
+data/
+input/
+__pycache__/
+*.pyc
+*.parquet
+*.csv
+*.json
+.env
+*.key
+*.pem
